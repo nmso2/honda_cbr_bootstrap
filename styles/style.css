@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -6,10 +6,27 @@ body{
     padding: 0;
 }
 
-.ttg{
-    color: white;
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: white;
+  }
+
+p{
+    font-weight: 400;
+    size: 16px;
 }
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
 header{
     background-color: #264653;
     color: white;
+}
+
+.btn-all{
+    background-color: #E76F51;
+    padding: 10px 24px;
 }
