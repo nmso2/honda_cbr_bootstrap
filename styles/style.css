@@ -10,6 +10,7 @@ p{
     size: 16px;
     margin-top: 0;
     padding-top: 0;
+    color: #6C6C6C;
 }
 h1{
     font-size: 48px;
@@ -42,6 +43,9 @@ header{
     background-color: #264653;
     color: white;
 }
+header p{
+    color: #E0E0E0;
+}
 .modal h5 , .modal p{
     color: black;
 }
@@ -65,4 +69,7 @@ header{
 /* ==========Footer============ */
 footer{
     background: #0B0D17;
+}
+footer p{
+    color: white;
 }
