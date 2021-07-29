@@ -5,12 +5,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    border: white;
-  }
-
 p{
     font-weight: 400;
     size: 16px;
@@ -20,13 +14,20 @@ h1{
     font-weight: 600;
     margin-bottom: 30px;
 }
-
+.btn-all{
+    background-color: #E76F51;
+    padding: 10px 24px;
+    color: white;
+}
+/* ========Header======== */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: white;
+  }
 header{
     background-color: #264653;
     color: white;
 }
-
-.btn-all{
-    background-color: #E76F51;
-    padding: 10px 24px;
+.modal h5 , .modal p{
+    color: black;
 }
