@@ -8,16 +8,27 @@ body{
 p{
     font-weight: 400;
     size: 16px;
+    margin-top: 0;
+    padding-top: 0;
 }
 h1{
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 30px;
 }
+h5{
+    font-size: 28px;
+    font-weight: 600;
+}
+
 .btn-all{
     background-color: #E76F51;
     padding: 10px 24px;
     color: white;
+}
+.custom-color{
+    color: #E76F51;
+    font-weight: 600;
 }
 /* ========Header======== */
 .custom-toggler .navbar-toggler-icon {
@@ -30,4 +41,20 @@ header{
 }
 .modal h5 , .modal p{
     color: black;
+}
+
+/* ==========Featured Bikes======= */
+
+.gray-img{
+    filter: grayscale(100%);
+}
+
+/* ===========Latest News========== */
+
+.news-btn{
+    border: 1px solid #E76F51;
+}
+.news-btn:hover{
+    color: white;
+    background-color: #E76F51;
 }
